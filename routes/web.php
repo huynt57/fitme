@@ -23,6 +23,7 @@ Route::resource('admin/categories', 'Backend\CategoriesController');
 
 #Frontend Routes
 Route::get('/', 'Frontend\MainController@index');
+Route::get('test', 'Frontend\PostController@getAllPosts');
 Route::get('home', 'Frontend\MainController@home');
 Route::get('login', 'Frontend\AuthController@redirectToAuthServer');
 Route::get('logout', 'Frontend\AuthController@logout');

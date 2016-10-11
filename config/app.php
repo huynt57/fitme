@@ -183,6 +183,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Vinkla\Instagram\InstagramServiceProvider::class
 
     ],
 
@@ -235,6 +236,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'Instagram' => Vinkla\Instagram\Facades\Instagram::class
     ],
 
 ];
